@@ -11,6 +11,7 @@ termina el ciclo. Imprimo la lista de todas las mascotas
 BONUS: Una vez finalizado el ciclo, imprimir el total de $ en especies
 '''
 print('Bienvenido al ADMIN de la tienda de mascotas')
+  
 
 def tienda ():
     mascotas = []
