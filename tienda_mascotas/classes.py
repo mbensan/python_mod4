@@ -65,3 +65,11 @@ if __name__ == '__main__':
   tienda1.vender('Avestruz')
 
   tienda1.mostrar_inventario()
+
+
+class Dueño:
+
+  def __init__(self, nombre, edad, especie, precio, cantidad):
+    self.nombre = nombre
+    self.edad = edad
+    self.mascota = Mascota(especie, precio, cantidad)

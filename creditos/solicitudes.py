@@ -6,4 +6,9 @@ print(credito1)
 
 credito2 = CredHipotecario()
 credito2.definir_monto(120_000_000)
-print(credito2)
+print(credito2.mostrar_monto())
+
+archivo = open('salida.txt', 'w')
+archivo.write(credito1)
+archivo.write(credito2)
+archivo.close()
